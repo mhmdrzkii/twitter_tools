@@ -55,8 +55,8 @@ while status1 == True:
                 while isi:
                     isi1 = input("Mau isi username Target? : 1. Ya 2. Tidak")
                     if isi1 == "1":
-                       username = input("Input username target : ")
-                       target = {"username" : username , "api": "hamzadln99"}
+                       username = input("Poconggg : ")
+                       target = {"Poconggg" : Poconggg , "api": "hamzadln99"}
                        r = requests.post("https://tweetermedia.zapto.org/private/add_target.php", data = target)
                        print(r.text)
                     elif isi1 == "2":
