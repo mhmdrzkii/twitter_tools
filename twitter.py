@@ -2,7 +2,7 @@ import time
 import requests , os
 import pyfiglet
 
-mydata = { "api" : "SGB-TonVyZ7w93",
+mydata = { "api" : "SGB-XdjNBKRnLK",
          "consumer_key" : "tLZYeHDfJAH1N6hnU5fnjk77v",
          "consumer_secret" : "NwfFIgQVciM94W7l78CplYggoTShJSnWdnRMyHApiqPjYSAbZD",
          "access_token" : "1001802249406889984-y6VtIxarVB5RvdhNl8QfolqhcvRanI",
@@ -56,7 +56,7 @@ while status1 == True:
                     isi1 = input("Mau isi username Target? : 1. Ya 2. Tidak")
                     if isi1 == "1":
                        username = input("Input username target : ")
-                       target = {"username" : username , "api": "rzkyy60"}
+                       target = {"username" : username , "SGB-XdjNBKRnLK": "rzkyy60"}
                        r = requests.post("https://tweetermedia.zapto.org/private/add_target.php", data = target)
                        print(r.text)
                     elif isi1 == "2":
